@@ -2,6 +2,7 @@
 
 #### Navigate pages
 - [Posts](https://neaxture.github.io/posts)
+- [Notes where I save good chunks of useful code and important links](https://neaxture.github.io/notes)
 - [Projects](https://neaxture.github.io/projects)
 - [Media](https://neaxture.github.io/media)
 - [About](https://neaxture.github.io/about)
