@@ -2,7 +2,7 @@
 
 #### Navigate pages
 - [Posts](https://neaxture.github.io/posts)
-- [Notes where I save good chunks of useful code and important links](https://neaxture.github.io/notes)
+- [Notes](https://neaxture.github.io/notes)
 - [Projects](https://neaxture.github.io/projects)
 - [Media](https://neaxture.github.io/media)
 - [About](https://neaxture.github.io/about)
@@ -12,4 +12,4 @@ Hello! We made this site in October 21st, 2020! There's nothing right now... but
 
 #### Neaxture TODO list
 - [X]  Nothing
-- [ ]  Abstrac: 3D engine thing
+- [ ]  Abstrac: Isometric engine

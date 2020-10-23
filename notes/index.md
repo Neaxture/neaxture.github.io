@@ -1,10 +1,10 @@
 # Notes
 
 #### Links
-[Python Neural Network Backpropagation](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
-[Add Windows PATH using cmd](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows)
-[Resizing viewport in SFML](https://stackoverflow.com/questions/27785940/shapes-proportionally-resize-with-window-in-sfml-2-x)
-[OS Error Codes](https://mariadb.com/kb/en/operating-system-error-codes/)
+- [Python Neural Network Backpropagation](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
+- [Add Windows PATH using cmd](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows)
+- [Resizing viewport in SFML](https://stackoverflow.com/questions/27785940/shapes-proportionally-resize-with-window-in-sfml-2-x)
+- [OS Error Codes](https://mariadb.com/kb/en/operating-system-error-codes/)
 
 #### C++ useful libraries
 ```cpp
@@ -25,11 +25,11 @@
 #### C++ set up unicode
 ```cpp
 #ifdef _WIN32
-	// (void) so that visual studio won't complain
-	(void)_setmode(_fileno(stdin), _O_U16TEXT);
-	(void)_setmode(_fileno(stdout), _O_U16TEXT);
-	#endif
-	std::setlocale(LC_ALL, "en_US.utf8");
+// (void) so that visual studio won't complain
+(void)_setmode(_fileno(stdin), _O_U16TEXT);
+(void)_setmode(_fileno(stdout), _O_U16TEXT);
+#endif
+std::setlocale(LC_ALL, "en_US.utf8");
 ```
 
 #### SFML Voice Recorder
