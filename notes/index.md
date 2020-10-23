@@ -5,6 +5,7 @@
 - [Add Windows PATH using cmd](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows)
 - [Resizing viewport in SFML](https://stackoverflow.com/questions/27785940/shapes-proportionally-resize-with-window-in-sfml-2-x)
 - [OS Error Codes](https://mariadb.com/kb/en/operating-system-error-codes/)
+- [Bytecode Interpreter](https://gameprogrammingpatterns.com/bytecode.html)
 
 #### C++ useful libraries
 ```cpp
