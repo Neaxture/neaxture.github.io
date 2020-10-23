@@ -118,7 +118,7 @@ cdef (double, double) rotateVec2((double, double) vec2, double sZ, double cZ):
 
 #### Cython linear lerp
 ```py
-double remap(double x, double amin, double amax, double bmin, double bmax):
+cdef double remap(double x, double amin, double amax, double bmin, double bmax):
   if (amax - amin) + bmin == 0:
     return bmin
   else:
@@ -162,6 +162,14 @@ cdef char checkPointInPolygon((double, double) point, vector[(double, double)] p
 
 #### Cython get line triangle intersection in 3D space
 ```py
+cdef double dot((double, double, double) x, (double, double, double) y):
+  return x[0]*y[0]+x[1]*y[1]+x[2]*y[2]
+
+cdef (double, double, double) cross((double, double, double) a, (double, double, double) b):
+  return (a[1]*b[2] - a[2]*b[1],
+    a[2]*b[0] - a[0]*b[2],
+    a[0]*b[1] - a[1]*b[0])
+
 cdef double signed_tetra_volume((double, double, double) a, (double, double, double) b, (double, double, double) c, (double, double, double) d):
   return sign(dot(cross((b[0]-a[0], b[1]-a[1], b[2]-a[2]), (c[0]-a[0], c[1]-a[1], c[2]-a[2])), (d[0]-a[0], d[1]-a[1], d[2]-a[2]))/6)
 
