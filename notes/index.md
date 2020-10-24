@@ -162,6 +162,14 @@ cdef char checkPointInPolygon((double, double) point, vector[(double, double)] p
 
 #### Cython get line triangle intersection in 3D space
 ```py
+cdef double sign(double x):
+	if x == 0:
+		return 0
+	elif x < 0:
+		return -1
+	elif x > 0:
+		return 1
+
 cdef double dot((double, double, double) x, (double, double, double) y):
   return x[0]*y[0]+x[1]*y[1]+x[2]*y[2]
 
