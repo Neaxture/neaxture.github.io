@@ -1,6 +1,6 @@
 # Posts
 
-**Post \#2: Abstrac project report** October 24th 2020
+**Post \#3: Abstrac project report, again** October 24th 2020
 > Frick it, I'm not a fan of isometric rendering. I'll take a shot at making an actual 3D engine. My idea to do the Z buffer is to squish the projection view into an orthographic view, by squishing the far bits by /z then interpolating the triangle with its points' depth.
 
 **Post \#2: Abstrac project report** October 23rd 2020
