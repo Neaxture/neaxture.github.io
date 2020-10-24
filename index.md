@@ -12,4 +12,4 @@ Hello! We made this site in October 21st, 2020! There's nothing right now... but
 
 #### Neaxture TODO list
 - [X]  Nothing
-- [ ]  Abstrac: Isometric engine
+- [ ]  Abstrac: 3D engine for it -_-
