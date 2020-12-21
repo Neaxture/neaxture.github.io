@@ -2,6 +2,7 @@
 
 #### Links
 - [Python Neural Network Backpropagation](https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/)
+- [Backpropagation Maths](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 - [Add Windows PATH using cmd](https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-windows)
 - [Resizing viewport in SFML](https://stackoverflow.com/questions/27785940/shapes-proportionally-resize-with-window-in-sfml-2-x)
 - [OS Error Codes](https://mariadb.com/kb/en/operating-system-error-codes/)
